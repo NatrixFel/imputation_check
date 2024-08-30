@@ -5,7 +5,9 @@ usage: beagle_check_script_transform.py [-h] file1 file2
 Compare two genotype tables.
 
 positional arguments:
+  
   file1       Path to the first table file
+  
   file2       Path to the second table file
 
 options:
