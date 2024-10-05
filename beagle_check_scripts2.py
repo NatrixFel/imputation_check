@@ -2,7 +2,7 @@ import csv
 import argparse
 
 def compare_tables(file1, file2):
-    # Save table in the dictionary with SNP_ID keys (third row)
+    # make dictionary with SNP_ID keys (third row)
     def load_table(file):
         with open(file, 'r') as f:
             reader = csv.reader(f, delimiter='\t')
