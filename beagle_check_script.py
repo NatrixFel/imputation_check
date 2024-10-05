@@ -51,8 +51,8 @@ def compare_tables(file1, file2):
 #file2 = "test_LD_imputing.vcf"
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Compare two genotype tables.")
-    parser.add_argument('file1', help="Path to the first table file")
-    parser.add_argument('file2', help="Path to the second table file")
+    parser.add_argument('file1', help="Path to the pre-imputation table file")
+    parser.add_argument('file2', help="Path to the post-imputation table file")
     
     args = parser.parse_args()
     
