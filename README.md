@@ -6,13 +6,13 @@ The first script compare tables before and after imputation (tables with same nu
 The second script compare tables before imputation and after some filtering steps except imputation (tables with different number of rows)
 
 
-usage: beagle_check_script_transform.py [-h] file1 file2
+    usage: beagle_check_script_transform.py [-h] file1 file2
 
-positional arguments:
+    positional arguments:
   
-  **file1**       Path to the pre-imputation table file
+      **file1**       Path to the pre-imputation table file
   
-  **file2**       Path to the post-imputation table file
+      **file2**       Path to the post-imputation table file
 
-options:
-  -h, --help  show this help message and exit
+    options:
+      -h, --help  show this help message and exit
